@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="js/codigo.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div id="fondo">
+        <div id="contenedor">
+            <h1>CALCULADORA PAR O IMPAR</h1>
+            <div id="contenido">
+                <h2>Escribe un número y sabrás si es par o impar</h2>
+                <input type="number" id="numero" placeholder="Escribe aquí..." autocomplete="off" maxlength="9" oninput="maxLengthCheck(this)">
+                <button type="submit" id="procesar" onclick="parimpar()"> CLIC </button>
+                <div id="resultado"></div>
+                <div id="game"><img src="images/mando.png" alt="mando de juegos retro"></div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
